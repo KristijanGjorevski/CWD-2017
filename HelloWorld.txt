@@ -1,2 +1,7 @@
 <DOCTYPE html>
-SSSSSSS
+<head>
+<header></header>
+<title>Vezbi</title>
+</head>
+<body>
+</body>

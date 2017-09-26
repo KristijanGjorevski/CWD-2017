@@ -1,0 +1,52 @@
+<DOCTYPE html>
+<head>
+	asfafs
+	<title>Vezbi</title>
+	<h1>Proba</h1>
+	<style type="text/css">
+		div#video_controls_bar{background: #333; padding: 10px;}
+		div#video_player_box{width: 720px; background: #333;margin: 0px auto;}
+
+	</style>
+	<script type="text/javascript">
+
+var vid, playbtn, seekbar;
+	
+	function intializePlayer(){
+		// Set object refrences
+		vid = document.getElementById("my_video");
+		playbtn = document.getElementById("playpausebtn");
+		seekbar = document.getElementById("");
+		// Add event listeners
+		playbtn.addEventListener("click",playPause,false);
+
+	}
+
+window.onload = intializePlayer;		
+		
+		function playPause(){
+			var vid = document.getElementById('vid');
+			if (vid.paused) 
+			{
+				vid.play();
+				playbtn.innerHTML ="Pause";
+			}
+			else
+			{
+				vid.pause();
+				playbtn.innerHTML = "Play";
+			}
+		}
+	</script>
+
+</head>
+<body>
+	<div id="video_player_box">
+		<video id="my_video" controls width="720" height="800" autoplay>
+			<source src="C:\Users\Kiko\Desktop\stich.mp4">
+		</video>
+		<div id="video_controls_bar">
+		 	<button id="playpausebtn">Pause</button>
+	</div>
+</div>
+</body>
