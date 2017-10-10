@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">	
+	<title>ПДД-ГДП</title>
+</head>
+<body>
+		<img src="pic\Logo-UJP.jpg" width="300" align="left"> 
+		<img src="pic\PPD-GDP.jpg" width="100" align="right"> 
+ 	<h1 align="center"><b>Годишна Даночна Пријава</b></h1>
+ 	<h2 align="center"> За утврдување на персонален данок на доход</h2>
+	 <hr> <!-- znam deka ne treba da gi upotrebuvame samo dodeka naucime CSS -->
+
+	<form>
+	
+		<table align="left" width="450" height="300">
+			<tr>
+				<th>ЕМБГ</th>
+				<td><input type="number" name="embg"></td>							
+
+			</tr>
+			<tr>
+				<th width="150">Име и презиме и адреса на живеење за контакт</th>
+				<td><textarea cols="35" rows="6"></textarea>
+			</tr>
+			<tr>
+				<th>Телефон</th>
+				<td><input type="number" name="tel"></td>
+
+			</tr>
+			<tr>
+				<th>Е-пошта</th>
+				<td><input type="email" name="ePosta"></td>
+			</tr>
+		</table>
+		<table style='background-color: plum;border: 5px solid plum' align="right" width="450	" height="100">
+			<tr>
+				<th width="70" style='background-color: plum'>Датум и број на пријава</th>
+				<td><textarea cols="40" rows="6"></textarea></td>
+			</tr>
+		</table>
+		<table  align="right" height="60" width="450">
+				<caption align="center">Даночен Период</caption>
+			<tr>
+				<th align="left">Од</th>
+				<td><input type="date" name="dataOd" align="right"></td>
+            </tr>
+			<tr>
+				<th align="left">До</th>
+				<td><input type="date" name="dataDo"></td>
+			</tr>
+            <tr>
+                <th align="left">Рок за подесување</th>
+                <td><input type="date" name="rok"></td>
+            </tr>
+            <tr>
+                <th align="left">Исправка на *ПДД*ГДП*</th>
+                <td><input type="checkbox" name="ispravka"></td>
+            </tr>
+		</table>
+
+		<table width="100%" border="1" style="border-color: plum;">
+			<th><h3>ОСТВАРЕНИ ПРИХОДИ</h3></th>
+			<tr>
+				<th align="center">Вид на остварен приход</th>
+				<th>#</th>
+				<th align="center"> Бруто износ на приход</th>
+				<th align="center">Вкупен износ на одбитоци</th>
+				<th align="center">Вкупен износ на платени аконтации</th>
+			</tr>
+			<tr>
+				<td width="40%">Плата и надоместоци на плата од работен однос и исплата по основ
+					на деловна успешност на работодавачот на кои се платени придонеси
+				</td>
+				<td>1</td>
+				<td><input type="number" name="1"></td>
+				<td><input type="number" name="1"></td>
+				<td><input type="number" name="1"></td>
+			</tr>
+			<tr>
+				<td>
+					Плата и надоместоци на плата од работен однос и исплата по основ на деловна
+					успешност на работодавач-кој не е заштитно друштво, на вработени
+					инвалидни лица
+				</td>
+				<td>1-a</td>
+				<td><input type="number" name="1a"></td>
+				<td><input type="number" name="1a"></td>
+				<td><input type="number" name="1a"></td>
+			</tr>
+			<tr>
+				<td>
+					Плата и надоместоци на плата од работен однос и исплата по основ на деловна
+					успешност кај заштитни друштва
+				</td>
+				<td>1-б</td>
+				<td><input type="number" name="1b"></td>
+				<td><input type="number" name="1b"></td>
+				<td><input type="number" name="1b"></td>
+			</tr>
+			<tr>
+				<td>
+					Плата и надоместоци на плата од работен однос и исплата по основ на деловна
+					успешност кај корисници на технолошка индустриска развојна зона
+				</td>
+				<td>1-в</td>
+				<td><input type="number" name="1v"></td>
+				<td><input type="number" name="1v"></td>
+				<td><input type="number" name="1v"></td>
+			</tr>
+			<tr>
+				<td>
+					Плата и надоместоци на плата од работен однос и исплата по основ на деловна
+					успешност на работодавач кој има ослободување по член 98 од Законот за
+					вработување и осигурување во случај на невработеност
+				</td>
+				<td>1-г</td>
+				<td><input type="number" name="1g"></td>
+				<td><input type="number" name="1g"></td>
+				<td><input type="number" name="1g"></td>
+			</tr>
+			<tr>
+				<td>
+					Дополнителни примања и надоместоци на трошоци од работен однос на кои
+					не се платени придонеси
+				</td>
+				<td>2</td>
+				<td><input type="number" name="2"></td>
+				<td></td>
+				<td><input type="number" name="2"></td>
+			</tr>
+			<tr>
+				<td>
+					Пензии
+				</td>
+				<td>3</td>
+				<td><input type="number" name="3"></td>
+				<td><input type="number" name="3"></td>
+				<td><input type="number" name="3"></td>
+			</tr>
+			<tr>
+				<td>
+					Примања на членови на органите на управување и на органите на надзор во
+					трговските друштва
+				</td>
+				<td>4</td>
+				<td><input type="number" name="4"></td>
+				<td></td>
+				<td><input type="number" name="4"></td>
+			</tr>
+			<tr>
+				<td>
+					Примања на функционери, пратеници, советници и други носители на јавни
+					функции
+				</td>
+				<td>5</td>
+				<td><input type="number" name="5"></td>
+				<td></td>
+				<td><input type="number" name="5"></td>
+			</tr>
+			<tr>
+				<td>
+					Надоместоци за работа на судии поротници, вешти лица и стечајни управници
+					кои немаат својство на вработени лица во соодветните институции или друштва
+				</td>
+				<td>6</td>
+				<td><input type="number" name="6"></td>
+				<td></td>
+				<td><input type="number" name="6"></td>
+			</tr>
+			<tr>
+				<td>
+					Надоместоци на членови на Македонска академија на науките и уметностите
+				</td>
+				<td>7</td>
+				<td><input type="number" name="7"></td>
+				<td></td>
+				<td><input type="number" name="7"></td>
+			</tr>
+			<tr>
+				<td>
+					Примања по основ на договор за повремено или привремено вршење на услуги
+				</td>
+				<td>8</td>
+				<td><input type="number" name="8"></td>
+				<td></td>
+				<td><input type="number" name="8"></td>
+			</tr>
+			<tr>
+				<td>
+					Имот и имотни права (закупнини)
+				</td>
+				<td>9</td>
+				<td><input type="number" name="9"></td>
+				<td><input type="number" name="9"></td>
+				<td><input type="number" name="9"></td>
+			</tr>
+			<tr>
+				<td>
+					Авторски права и права од индустриска сопственост
+				</td>
+				<td>10</td>
+				<td><input type="number" name="10"></td>
+				<td><input type="number" name="10"></td>
+				<td><input type="number" name="10"></td>
+			</tr>
+			<tr>
+				<td>
+					Дивиденди и други приходи остварени со учество во добивката кај правни и
+					физички лица
+				</td>
+				<td>11</td>
+				<td><input type="number" name="11"></td>
+				<td></td>
+				<td><input type="number" name="11"></td>
+			</tr>
+			<tr>
+				<td>
+					Камати за кои постои обврска за плаќање на данок
+				</td>
+				<td>12</td>
+				<td><input type="number" name="12"></td>
+				<td></td>
+				<td><input type="number" name="12"></td>
+			</tr>
+			<tr>
+				<td>
+					Добивки од игри на среќа и други наградни игри
+				</td>
+				<td>13</td>
+				<td><input type="number" name="13"></td>
+				<td></td>
+				<td><input type="number" name="13"></td>
+			</tr>
+			<tr>
+				<td>
+					Други приходи на кои аконтацијата на данокот се плаќа по одбивка
+				</td>
+				<td>14</td>
+				<td><input type="number" name="14"></td>
+				<td><input type="number" name="14"></td>
+				<td><input type="number" name="14"></td>
+			</tr>
+			<tr>
+				<td>
+					Други приходи на кои аконтацијата на данокот не се плаќа по одбивка
+				</td>
+				<td>15</td>
+				<td><input type="number" name="15"></td>
+				<td></td>
+				<td><input type="number" name="15"></td>
+			</tr>
+			<tr>
+				<td>
+					Нето-приход остварен од вршење на самостојна дејност
+				</td>
+				<td>16</td>
+				<td><input type="number" name="16"></td>
+				<td><input type="number" name="16"></td>
+				<td><input type="number" name="16"></td>
+			</tr>
+			<tr>
+				<td>
+					Вкупен приход од земјоделска дејност според паушално утврден приход
+				</td>
+				<td>17</td>
+				<td><input type="number" name="17"></td>
+				<td><input type="number" name="17"></td>
+				<td><input type="number" name="17"></td>
+			</tr>
+			<tr>
+				<td>
+					Капитални добивки
+				</td>
+				<td>18</td>
+				<td><input type="number" name="18"></td>
+				<td><input type="number" name="18"></td>
+				<td><input type="number" name="18"></td>
+			</tr>
+			<tr>
+				<td>
+					Даночно ослободување по основ на донации во висина од 20% од годишниот
+					даночен долг, но не повеќе од 24.000 денари
+				</td>
+				<td>19</td>
+				<td></td>
+				<td><input type="number" name="19"></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>
+					Искористено даночно ослободување при аконтативно оданочување
+				</td>
+				<td>20</td>
+				<td></td>
+				<td><input type="number" name="20"></td>
+				<td></td>	
+			</tr>
+			<tr>
+				<th>ВКУПНО:</th>
+				<td>21</td>
+				<td><input type="number" name="21"></td>
+				<td><input type="number" name="21"></td>
+				<td><input type="number" name="21"></td>
+			</tr>
+		</table>
+		<table width="100%" border="1">
+			<tr>
+				<td align="left"><h5>ПОДАТОЦИ ЗА ПОДНОСИТЕЛОТ НА ПРИЈАВАТА</h5></td>
+				<td></td>
+				<td align="right"><h5>ЗАБЕЛЕШКА</h5></td>
+			</tr>
+			<tr>
+				<td>Име и презиме и потпис</td>
+				<td><input type="text" name="ime"></td>
+				<td rowspan="2"><textarea cols="60" rows="5"></textarea></td>
+			</tr>
+			<tr>
+				<td>Датум на поднесување </td>
+				<td><input type="date" name="datum"></td>
+			</tr>
+		</table>
+
+	</form>
+</body>
+</html>
