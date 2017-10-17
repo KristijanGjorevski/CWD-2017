@@ -4,14 +4,37 @@
 	<meta charset="utf-8">
 	<title>9GAG</title>
 	<style>
+	* {font-family: Arial;}
+
+	.content {
+		padding: 150px 10px 50px 360px;
+
+	}
+	figcaption {
+		font-size: 10px;
+		font-weight: bold;
+		width: 600px;
+	}
+	figure> img {
+		min-height: 10%;
+		max-height: 700px;
+		min-width: 50px;
+		max-width: 600px;
+		outline-style: inset;
+		outline-color: grey;
+		outline-width: 1px;
+	}
+
 	.hor_display {
 		background-color: white;
-		height: 74px;
+		height: 60px;
+		white-space: nowrap;
 	}
 	.hor_display li a {
 		box-sizing: border-box;
 		background-color: black;
 		font-weight: bold;
+		font-size: 14px;
 		display: inline-block;
 		border-radius: 20px;
 		border:solid;
@@ -92,7 +115,7 @@
 		text-decoration: none;
 		font-weight: bold;
 		text-align: center;
-		font-size: 16px;
+		font-size: 14px;
 		padding: 15px;
 		height: 20px;
 		float: left;
@@ -195,7 +218,7 @@
 					<li><a href="https://9gag.com/trending">Trending</a></li>
 					<li><a href="https://9gag.com/fresh">Fresh</a></li>
 					<li>
-						<div>
+						<form>
 							<button onclick="myFunction()" class="dropbtn">More</button>
 							<div id="myDropdown" class="dropdown-content">
 								<a href="https://9gag.com/funny">Funny</a>
@@ -203,7 +226,7 @@
 								<a href="https://9gag.com/ask9gag">Ask 9gag</a>
 								<a href="https://9gag.com/gaming">Gaming</a>
 							</div>
-						</div>
+						</form>
 					</li>
 				</ul>
 				<ul class="flex-meni">
@@ -222,47 +245,43 @@
 					<li class="logIn"><a href="https://9gag.com/login">Log in</a></li>
 					<li class="searchBox"><a href="#"><img src="pic/BiaE5zkaT.png"></a></li>
 				</ul>
-<!-- 				<div class="searchBox">
-	<span class="icon"></span>
-	<input type="search" name="body">
-</div>
-<div class="logIn">
-	<input type="button" name="logIn" src="https://9gag.com/login">
-	<span>Log In</span>					
-</div>
-<div class="signUp">
-	<input type="button" name="signUp">
-	<span>Sign Up</span>
-</div> -->
+			</div>
+			<div class="cleaner"></div>
+			<div class="recommend">
+				<ul class="hor_display">
+					<li><a href="https://9gag.com/tag/monday?ref=featured-tag">Monday</a></li>
+					<li><a href="https://9gag.com/tag/sophie-turner?ref=featured-tag">Sophie Turner</a></li>
+					<li><a href="https://9gag.com/tag/star-wars?ref=featured-tag">Star Wars</a></li>
+					<li><a href="https://9gag.com/tag/spooky?ref=featured-tag">Spooky</a></li>
+					<li><a href="https://9gag.com/tag/halloween-costume?ref=featured-tag">Haloween Costume</a></li>
+					<li><a href="https://9gag.com/tag/rick-and-morty?ref=featured-tag">Rick and Morty</a></li>
+					<li><a href="https://9gag.com/tag/bear-grylls?ref=featured-tag">Bear Grylls</a></li>
+					<li><a href="https://9gag.com/tag/single-af?ref=featured-tag">Single AF</a></li>
+					<li><a href="https://9gag.com/tag/i-need-dis?ref=featured-tag">I need DIS</a></li>
+					<li><a href="https://9gag.com/tag/satisfying?ref=featured-tag">Satisfying</a></li>
+					<li><a href="https://9gag.com/tag/cosplay?ref=featured-tag">Cosplay</a></li>
+					<li><a href="https://9gag.com/tag/engineering?ref=featured-tag">Engineering</a></li>
+					<li><a href="https://9gag.com/tag/pc-master-race?ref=featured-tag">PC Master Race</a></li>
+					<li><a href="https://9gag.com/tag/nature-is-lit?ref=featured-tag"> Nature is lit</a></li>
+					<li><a href="https://9gag.com/tag/not-dick?ref=featured-tag">Not Dick</a></li>
+					<li><a href="https://9gag.com/tag/cuphead?ref=featured-tag">Cuphead</a></li>
+					<li><a href="https://9gag.com/tag/dankmemes?ref=featured-tag">Dankmemes</a></li>
+					<li><a href="https://9gag.com/tag/programmers-know?ref=featured-tag">Programmers Know</a></li>
+					<li><a href="https://9gag.com/tag/pubg?ref=featured-tag">PUBG</a></li>
+					<li><a href="https://9gag.com/tag/savage-replies?ref=featured-tag">Savage Replies</a></li>
+					<li><a href="https://9gag.com/tag/kingsman?ref=featured-tag">Kingsman</a></li>
+					<li><a href="https://9gag.com/tag/crappy-design?ref=featured-tag">Crappy Design</a></li>
+					<li><a href="https://9gag.com/tag/tinder?ref=featured-tag">Tinder</a></li>
+				</ul>
 			</div>
 		</div>
-		<div class="cleaner"></div>
-		<div class="recommend">
-			<ul class="hor_display">
-				<li><a href="https://9gag.com/tag/monday?ref=featured-tag">Monday</a></li>
-				<li><a href="https://9gag.com/tag/sophie-turner?ref=featured-tag">Sophie Turner</a></li>
-				<li><a href="https://9gag.com/tag/star-wars?ref=featured-tag">Star Wars</a></li>
-				<li><a href="https://9gag.com/tag/spooky?ref=featured-tag">Spooky</a></li>
-				<li><a href="https://9gag.com/tag/halloween-costume?ref=featured-tag">Haloween Costume</a></li>
-				<li><a href="https://9gag.com/tag/rick-and-morty?ref=featured-tag">Rick and Morty</a></li>
-				<li><a href="https://9gag.com/tag/bear-grylls?ref=featured-tag">Bear Grylls</a></li>
-				<li><a href="https://9gag.com/tag/single-af?ref=featured-tag">Single AF</a></li>
-				<li><a href="https://9gag.com/tag/i-need-dis?ref=featured-tag">I need DIS</a></li>
-				<li><a href="https://9gag.com/tag/satisfying?ref=featured-tag">Satisfying</a></li>
-				<li><a href="https://9gag.com/tag/cosplay?ref=featured-tag">Cosplay</a></li>
-				<li><a href="https://9gag.com/tag/engineering?ref=featured-tag">Engineering</a></li>
-				<li><a href="https://9gag.com/tag/pc-master-race?ref=featured-tag">PC Master Race</a></li>
-				<li><a href="https://9gag.com/tag/nature-is-lit?ref=featured-tag"> Nature is lit</a></li>
-				<li><a href="https://9gag.com/tag/not-dick?ref=featured-tag">Not Dick</a></li>
-				<li><a href="https://9gag.com/tag/cuphead?ref=featured-tag">Cuphead</a></li>
-				<li><a href="https://9gag.com/tag/dankmemes?ref=featured-tag">Dankmemes</a></li>
-				<li><a href="https://9gag.com/tag/programmers-know?ref=featured-tag">Programmers Know</a></li>
-				<li><a href="https://9gag.com/tag/pubg?ref=featured-tag">PUBG</a></li>
-				<li><a href="https://9gag.com/tag/savage-replies?ref=featured-tag">Savage Replies</a></li>
-				<li><a href="https://9gag.com/tag/kingsman?ref=featured-tag">Kingsman</a></li>
-				<li><a href="https://9gag.com/tag/crappy-design?ref=featured-tag">Crappy Design</a></li>
-				<li><a href="https://9gag.com/tag/tinder?ref=featured-tag">Tinder</a></li>
-			</ul>
+		<div class="container">
+			<div class="content">
+				<figure>
+					<figcaption><h1>So, I just found this lizard on my window like this.. Can it be memed??</h1></figcaption>
+					<img src="https://img-9gag-fun.9cache.com/photo/ajNWWmq_700b.jpg">
+				</figure>
+			</div>
 		</div>
 	</div>
 </body>
