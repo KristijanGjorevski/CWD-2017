@@ -5,6 +5,44 @@
 	<title>9GAG</title>
 	<style>
 	* {font-family: Arial;}
+	a { text-decoration-line: none; }
+	.ads {
+		width: 100%;
+		height: 100%;
+		top: 170px;
+		right: 200px;
+		position: fixed;
+	}
+
+	a>h3:hover { color: blue; }
+	a>h3 { 	font-size: 14px;
+			max-width: 100%;
+			max-height: 66px;
+			padding: 0px;
+			margin: 0px;
+			color: black;
+		}
+	h3 {
+			padding: 0px;
+			margin: 0px;}
+	.first_ad img {
+			width: 100%;
+			height: auto;
+	}
+
+	.first_ad {
+			border-color: green;
+			background-color: transparent;
+			float: right;
+			width: 300px;
+			height: 240px;
+			box-sizing: border-box;
+	}
+	
+	a>h1:hover { color:blue; }
+	a>h1 {
+		color: black;
+	}
 
 	.content {
 		padding: 150px 10px 50px 360px;
@@ -15,11 +53,15 @@
 		font-weight: bold;
 		width: 600px;
 	}
+	figure {		
+		border-bottom-style: inset;
+		border-bottom-color: gray;
+		border-bottom-width: 1px;
+		width: 500px;
+	}
 	figure> img {
-		min-height: 10%;
-		max-height: 700px;
-		min-width: 50px;
-		max-width: 600px;
+		height: auto;
+		width: 100%;
 		outline-style: inset;
 		outline-color: grey;
 		outline-width: 1px;
@@ -30,7 +72,7 @@
 		height: 60px;
 		white-space: nowrap;
 	}
-	.hor_display li a {
+	.hor_display>li a {
 		box-sizing: border-box;
 		background-color: black;
 		font-weight: bold;
@@ -66,11 +108,10 @@
 		box-sizing: border-box;
 		margin: 10px;
 		padding: 5px 15px 5px 15px ;
-		text-decoration: none;
 		font-weight: bold;
 		border-radius: 3px;
 	}
-	.searchBox a img {
+	.searchBox>a img {
 		background-color: black;
 		padding: 0px;
 		margin: 0px;
@@ -90,7 +131,6 @@
 	.flex-meni li a {
 		background-color: black;
 		color: grey;
-		text-decoration: none;
 		font-weight: normal;
 		text-align: center;
 		font-size: 16px;
@@ -112,7 +152,6 @@
 	.nav-meni li a {
 		background-color: black;
 		color: grey;
-		text-decoration: none;
 		font-weight: bold;
 		text-align: center;
 		font-size: 14px;
@@ -120,7 +159,7 @@
 		height: 20px;
 		float: left;
 	}
-	li a:hover {
+	.header li a:hover {
 		color: white;
 		border-top:5px;
 		}
@@ -129,7 +168,7 @@
 			background-repeat: repeat;
 		}
 	.background {
-			background-color: green;
+			background-color: white;
 			margin: 0px;
 			width: 100%;
 		}
@@ -199,7 +238,6 @@
 	.dropdown-content a {
 		    color: black;
 		    padding: 12px 16px;
-		    text-decoration: none;
 		    display: block;
 		}
 	</style>
@@ -278,10 +316,38 @@
 		<div class="container">
 			<div class="content">
 				<figure>
-					<figcaption><h1>So, I just found this lizard on my window like this.. Can it be memed??</h1></figcaption>
-					<img src="https://img-9gag-fun.9cache.com/photo/ajNWWmq_700b.jpg">
+					<figcaption><a href="#"><h1>So, I just found this lizard on my window like this.. Can it be memed??</h1></a></figcaption>
+					<img src="https://img-9gag-fun.9cache.com/photo/ajNWWmq_700b.jpg" width="595" height="949">
 				</figure>
-			</div>
+				<figure>
+					<figcaption><a href="https://9gag.com/gag/ad9obZQ"><h1>You can never be this cool</h1></a></figcaption>
+					<img src="https://img-9gag-fun.9cache.com/photo/ad9obZQ_700b.jpg" height="700" width="700">
+				</figure>
+				<figure>
+					<figcaption><a href="https://9gag.com/gag/aXvKe8v"><h1>Hungry birds.</h1></a></figcaption>
+					<img src="https://img-9gag-fun.9cache.com/photo/aXvKe8v_700b.jpg" width="700" height="841">
+				</figure>
+				<div class="ads">
+					<ol class="first_ad">
+						<li>
+							<img src="https://miscmedia-9gag-fun.9cache.com/images/featured/1506219489.2879_XAZyGY_300.jpg">
+							<span><a href="#"><h3>Teacher Creates a "Harry Potter"-Themed Classroom To Give His Students A Magical year</h3></a></span>
+						</li>
+						<li>
+							<img src="https://miscmedia-9gag-fun.9cache.com/images/featured/1506219489.2879_XAZyGY_300.jpg">
+							<span><a href="#"><h3>Teacher Creates a "Harry Potter"-Themed Classroom To Give His Students A Magical year</h3></a></span>
+						</li>
+						<li>
+							<img src="https://miscmedia-9gag-fun.9cache.com/images/featured/1506219489.2879_XAZyGY_300.jpg">
+							<span><a href="#"><h3>Teacher Creates a "Harry Potter"-Themed Classroom To Give His Students A Magical year</h3></a></span>
+						</li>
+						<li>
+							<img src="https://miscmedia-9gag-fun.9cache.com/images/featured/1506219489.2879_XAZyGY_300.jpg">
+							<span><a href="#"><h3>Teacher Creates a "Harry Potter"-Themed Classroom To Give His Students A Magical year</h3></a></span>
+						</li>
+					</ol>
+				</div>
+			</div>	
 		</div>
 	</div>
 </body>
