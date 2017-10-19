@@ -1,0 +1,35 @@
+body {  margin: 0;
+		padding:0;
+		background-color: grey;
+ }
+* { font-family: sans-serif; }
+.cleaner {clear: both;}
+header {
+				margin:  0;
+				padding: 0;
+				width: 100%;
+				height: 70px;
+				 background-color: white;
+	 }
+	.lang-box {float: left; height: 70px;}
+
+	 	.nav-lang { float: left; color: black; text-underline-position:5px ;margin-left: 10px; margin-top: 25px; padding: 0px; box-sizing: border-box; }
+
+	.center-t{height: 70px;display:inline-block; align-content: center; margin-left: 34%;}
+
+		.header-title { display: inline-block; text-align: center; font-size: 16px; color: black; font-weight: normal; padding-top: 25px; margin: 0px; }
+
+	.sm-icons { float: right; margin-top: 30px; word-spacing: 5px; margin-right: 20px; }
+
+.main-header { float: right; width: 100%; height: 69px; background-color: white; border-style: solid; border-width: 1px; border-color: grey; margin: 0; padding: 0; }
+
+	.menu-box { float: left; background-color: lime; width: 110px; height: 69px; display: inline-block; border-style: solid; border-width: 1px; border-color: grey; }
+		.menu { float: left; height: 100%; width: 100%; background-color: white; color:black; }
+		.menu button { font-size :13px; width: 100%; height: 100%; background-color: white; color:black; border-style: none; }
+
+	.search-box { float: left; background-color: lime; width: 69px; height: 69px; display: inline-block; border-style: solid; border-width: 1px; border-color: grey; }
+		.search {box-sizing: border-box; padding: 20px; float: left; height: 100%; width: 100%; background-color: white; color:black; border-style: none;}
+		.seacrh button { width: 69px; height: 69px; background-color: white; color:black; border-style: none; }
+
+	.logo { float: left; margin-left: 30%; height: 69px; width: auto; background-color: lime; display: inline-block; }
+		.main-logo {float: left; box-sizing: border-box; margin-top: 20px; text-align: center; }
