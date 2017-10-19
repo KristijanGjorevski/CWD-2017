@@ -162,25 +162,66 @@ main {
 	padding-top: 50px;
 }
 
+		main .main-right {
+			width: 30%;
+			min-height: 100px;
+			box-sizing: border-box;
+			background-color: transparent;	
+			float: right;
+
+		}
+		.main-right img {height: 105px;width: 300px;}
+
+			h3 {margin: 2px;height: auto; width: 300px;}
+			h3 a {text-decoration-line: none; color:black; font-size: 14px;max-height: 147px; width: 300px;}
+
+
+
 	main .main-left {
-		width: 60%;
+		width: 55%;
 		min-height: 100px;
-		background-color: gray;
+		background-color: white;
 		float: left;
 	}
 
-	main .main-right {
-		width: 30%;
-		min-height: 100px;
-		background-color: purple;	
+	.left button {
+		padding:  4px 14px;
+		float: left;
+		box-sizing: border-box;
+		margin:  4px 5px;
+		font-size: 15px;
+		background-color: transparent;
+		color:grey;
+	}
+	.right button {
+		padding: 10px 18px;
+		box-sizing: border-box;
 		float: right;
+		font-size: 16px;
+		margin: 0px 8px 0px 3px;
+		border-radius: 3px;
+		border-style: none;
 	}
 	.post img {
-		height: 40%;
-		width:70%;
+		height: 50%;
+		width:85%;
 	}
-		.info>a {
-			font-size: 13px;
-			font-weight: bold;
-			text-decoration: none;
+	.info{
+		margin: 6px 3px;
+	}
+	a.subtitle { text-decoration-line: none; font-weight: bold; font-size: 14px;}
+	a.counters { text-decoration-line: none; margin: 10px 3px;	}
+
+		.sm-fb {
+			background-color: blue;
+			color: white;
+			padding: 5px;
+			word-spacing: 7px;
+
+		}
+		.sm-pin {
+			background-color: red;
+			color: white;
+			padding: 5px;
+			word-spacing: 7px;
 		}
