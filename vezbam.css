@@ -1,0 +1,4 @@
+body { background-color: grey; padding: 100px;}
+
+.pic_container { height: 200px; width: 200px; margin: 50px; padding: 20px; font-size: 15px; border-style: none; box-shadow: 2px 2px 15px 2px; background-color: white; }
+.pic_container:active { height: 200px; width: 200px; transform: scale(1.1,1.1) ; }
